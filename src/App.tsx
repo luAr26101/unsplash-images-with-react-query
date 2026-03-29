@@ -1,8 +1,14 @@
+import Gallery from "./components/gallery";
+import SearchForm from "./components/search-form";
+import ThemeToggle from "./components/theme-toggle";
+
 function App() {
   return (
-    <>
-      <h1>Unsplash images</h1>
-    </>
+    <main>
+      <ThemeToggle />
+      <SearchForm />
+      <Gallery />
+    </main>
   );
 }
 
