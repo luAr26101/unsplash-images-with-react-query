@@ -1,3 +1,4 @@
 export type ContextInitialValue = {
-  greeting: string;
+  isDarkTheme: boolean;
+  toggleDarkTheme: () => void | undefined;
 };
